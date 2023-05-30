@@ -1,9 +1,16 @@
+import Footer from './components/Footer';
+import Header from './components/Header';
+
 const App = () => {
   // Necesita las llaves
   return (
     <>
+      <Header />
       <h1>Mi primer</h1>
       <h2>Componente</h2>
+      <Footer />
+      <br />
+      <Footer />
     </>
   );
 };
